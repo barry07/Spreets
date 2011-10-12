@@ -1,0 +1,6 @@
+# required libaries to run tests
+
+selenium
+pytest
+pytest-xdist
+unittestzero
