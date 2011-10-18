@@ -7,7 +7,7 @@ import signin_page
 
 class TestSignIn:
     def test_user_can_sign_in(self, testsetup):
-        home_pg = home_page.Homepage(testsetup)
+        home_pg = home_page.HomePage(testsetup)
         home_pg.go_to_home_page()
         home_pg.click_sign_in_link()
 
