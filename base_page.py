@@ -3,7 +3,6 @@
 from selenium.webdriver.common.by import By
 
 from page import Page
-import personal_tools_region
 
 
 class BasePage(Page):
