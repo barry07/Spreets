@@ -2,8 +2,4 @@
 
 selenium
 pytest
-pytest-xdist
-unittestzero
-
-pytest
 unittestzero
