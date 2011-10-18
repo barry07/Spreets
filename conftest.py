@@ -69,7 +69,7 @@ def pytest_addoption(parser):
     parser.addoption("--base-url",
                      action="store",
                      dest="base_url",
-                     default="https://wwwt.spreets.com/",
+                     default="https://www.spreets.com/",
                      help="base URL for the application under test")
 
 
