@@ -6,6 +6,8 @@ October 12th, 2011
 '''
 
 import time
+import base64
+'''import yaml'''
 import re
 
 class Page(object):
@@ -15,7 +17,8 @@ class Page(object):
         self.base_url = testsetup.base_url
         self.selenium = testsetup.selenium
 
-    def is_current_page(self):
+    @property
+    def is_the_current_page(self):
         page_title = self.selenium.title
         if not page_title == self._page_title:
             self.record_error()
