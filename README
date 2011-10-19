@@ -1,0 +1,30 @@
+Running Tests
+Java
+
+You will need a version of the Java Runtime Environment installed
+Python
+
+Before you will be able to run these tests you will need to have Python 2.6 installed.
+
+Run
+
+easy_install pip
+
+followed by
+
+sudo pip install -r requirements.txt
+
+note
+
+If you are running on Ubuntu/Debian you will need to do following first
+
+sudo apt-get install python-setuptools
+
+to install the required Python libraries.
+
+Running tests locally
+
+To run tests locally its a simple case of calling the command below from this directory
+
+py.test . --browser-name=<BROWSER_NAME> --browser-version=<BROWSER_VERSION> --platform=<PLATFORM>
+
