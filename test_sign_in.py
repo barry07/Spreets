@@ -10,7 +10,7 @@ class TestSignIn:
         home_pg = home_page.HomePage(testsetup)
         home_pg.go_to_home_page()
         Assert.true(home_pg.is_the_current_page)
-        '''home_pg.click_sign_in_link()
+        home_pg.click_sign_in_link()
 
         signin_pg = signin_page.SignInPage(testsetup)
-        signin_pg.sign_in()'''
+        signin_pg.sign_in()
