@@ -7,7 +7,7 @@ October 12th, 2011
 
 import time
 import base64
-'''import yaml'''
+import yaml
 import re
 
 class Page(object):
